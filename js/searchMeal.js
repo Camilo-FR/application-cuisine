@@ -14,9 +14,9 @@ const searchMeal = async (search) => {
         if (meals[`strIngredient${i}`]) {
           ingredientsArray.push(
             "<li>" +
-              meals[`strIngredient${i}`] +
+              meals[0][`strIngredient${i}`] +
               "-" +
-              meals[`strMeasure${i}`] +
+              meals[0][`strMeasure${i}`] +
               "</li>"
           );
         }

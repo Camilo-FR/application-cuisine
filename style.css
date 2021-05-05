@@ -103,6 +103,7 @@ h1 {
   font-weight: bold;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 #submit:hover {
