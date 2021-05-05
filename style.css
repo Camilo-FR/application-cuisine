@@ -49,6 +49,10 @@ h1 {
   border-bottom: chocolate solid 2px;
 }
 
+.box img {
+  margin-top: 3rem;
+}
+
 .text {
   max-width: 70%;
   margin: 2rem auto;
